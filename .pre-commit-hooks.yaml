@@ -3,5 +3,5 @@
   description: This hook removes all jupyter notebook(s) outputs in a given directory.
   entry: "jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace"
   language: script
-  files: "\.ipynb$"
+  files: \.ipynb$
   stages: [commit]
