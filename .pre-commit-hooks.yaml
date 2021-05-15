@@ -1,0 +1,7 @@
+- id: ipynb-output-scrub
+  name:  Jupyter Output Scrubber
+  description: This hook removes all jupyter notebook(s) outputs in a given directory.
+  entry: "jupyter nbconvert --ClearOutputPreprocessor.enabled=True --inplace"
+  language: script
+  files: "*.ipynb"
+  stages: [commit]
