@@ -7,7 +7,7 @@ using jupyter `nbconvert` utility.
 
 Add the following to your `.pre-commit-config.yaml` repos section
 
-```
+``` yaml
 repos:
 -   repo: https://github.com/TWAICE/precommit-nbscrub
     rev: 1.0.0
